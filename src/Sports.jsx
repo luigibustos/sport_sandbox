@@ -32,7 +32,7 @@ const Sports = () => {
         {data.map((sport, idx) => {
           const sportImgs = sport.relationships.images.data[0].url;
           return data ? (
-            <Link to="/related" key={idx}>
+            <Link to={`/sportsdetails/${sport.id}`} key={idx}>
               <div className="card">
                 <Card border="info" style={{ width: "18rem" }}>
                   <Card.Img
