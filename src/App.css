@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.container-fluid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 18rem);
+  grid-auto-rows: 0.625rem;
+  justify-content: center; */
+}
+
+/* .container-fluid .card:nth-child(odd){
+  overflow-x:scroll;
+  grid-row-end: span 33;
+}
+.container-fluid .card:nth-child(even){
+  overflow-x:scroll;
+  grid-row-end: span 45;
+} */
